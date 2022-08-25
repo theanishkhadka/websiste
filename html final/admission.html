@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html class="firefox">
+<head>
+
+	<title>
+		College Application
+	</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<meta name="generator" content="Wufoo">
+	<meta name="robots" content="index">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+			<meta name="description" content=" prepared by Anish">
+				<link rel="canonical" href="anishkhadka#">
+	
+	<!-- CSS -->
+	<link href="admission.css" rel="stylesheet">
+		
+	
+	<!--[if lt IE 10]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	</head>
+
+<body id="public" onorientationchange="window.scrollTo(0, 1)">
+
+
+
+<div id="container" class="ltr">
+	 
+
+	<form id="form1" name="form1" class="wufoo  page1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="#">
+  
+<header id="header" class="info">
+	<h2 class=""> Arnico College's Admission form</h2>
+	<div class=""></div>
+</header>
+
+	
+<ul>
+		
+	
+	
+<li id="fo1li451" 		class="notranslate      ">
+	<label class="desc" id="title451" for="Field451">
+		Name
+				<span id="req_451" class="req">*</span>
+			</label>
+	<span>
+		<input id="Field451" 			name="Field451" 			type="text" 			class="field text fn" 			value="" 			size="8" 			tabindex="1" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder=""       			required 			/>
+		<label for="Field451">First</label>
+	</span>
+	<span>
+		<input id="Field452" 			name="Field452" 			type="text" 			class="field text ln" 			value="" 			size="14" 			tabindex="2" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			required 			/>
+		<label for="Field452">Last</label>
+	</span>
+	</li>
+
+
+
+<li id="fo1li3" 		class="complex notranslate      ">
+	<label class="desc" id="title3" for="Field3">
+		Address
+				<span id="req_3" class="req">*</span>
+			</label>
+	<div>
+		<span class="full addr1">
+		<input id="Field3" 			name="Field3" 			type="text" 			class="field text addr" 			value="" 			tabindex="3" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			required       			/>
+		<label for="Field3">Street Address</label>
+		</span>
+		<span class="full addr2">
+		<input id="Field4" 			name="Field4" 			type="text" 			class="field text addr" 			value="" 			tabindex="4" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			/>
+		<label for="Field4">Address Line 2</label>
+		</span>
+					<span class="left city">
+			<input id="Field5" 				name="Field5" 				type="text" 				class="field text addr" 				value="" 				tabindex="5" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 				required 				/>
+			<label for="Field5">City</label>
+			</span>
+			<span class="right state">
+			<input id="Field6" 				name="Field6" 				type="text" 				class="field text addr" 				value="" 				tabindex="6" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 				required 				/>
+			<label for="Field6">State / Province / Region</label>
+			</span>
+			<span class="left zip">
+			<input id="Field7" 				name="Field7" 				type="text" 				class="field text addr" 				value="" 				maxlength="15" 				tabindex="7" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 				required 				/>
+			<label for="Field7">Postal / Zip Code</label>
+			</span>
+			<span class="right country">
+			<select id="Field8" 				name="Field8" 				class="field select addr" 				tabindex="8" 								onclick="handleInput(this);" 				onkeyup="handleInput(this);" 								>
+									<option value="" selected="selected"></option>
+									<option value="Nepal" >Nepal</option>
+									<option value="United States" >United States</option>
+									<option value="United Kingdom" >United Kingdom</option>
+									<option value="Australia" >Australia</option>
+
+									 
+							</select>
+			<label for="Field8">Country</label>
+			</span>
+			</div>
+	</li>
+
+
+
+<li id="fo1li459" 		class="phone notranslate      ">
+	<label class="desc" id="title459" for="Field459">
+		Phone
+				<span id="req_459" class="req">*</span>
+			</label>
+	<span>
+		<input id="Field459" 			name="Field459"       type="tel" 			class="field text" 			value="" 			size="3" 			maxlength="3" 			tabindex="9" 						onkeyup="handleInput(this); autotab(this, document.getElementById('Field459-1'), this); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder=""       			required 			/>
+		<label for="Field459">###</label>
+	</span>
+	<span class="symbol">-</span>
+	<span>
+		<input id="Field459-1" 			name="Field459-1"       type="tel" 			class="field text" 			value="" 			size="3" 			maxlength="3" 			tabindex="10" 						onkeyup="handleInput(this); autotab(this, document.getElementById('Field459-2'), document.getElementById('Field459')); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder="" 			required 			/>
+		<label for="Field459-1">###</label>
+	</span>
+	<span class="symbol">-</span>
+	<span>
+	 	<input id="Field459-2" 			name="Field459-2"       type="tel" 			class="field text" 			value="" 			size="4" 			maxlength="4" 			tabindex="11" 						onkeyup="handleInput(this); autotab(this, this, document.getElementById('Field459-1')); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder="" 			required 			/>
+		<label for="Field459-2">####</label>
+	</span>
+	</li>
+
+
+<li id="fo1li454" 		class="notranslate section      ">
+	<section>
+		<h3 id="title454">
+			Emergency Contact
+		</h3>
+			</section>
+	</li>
+
+
+
+<li id="fo1li456" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title456" for="Field456">
+		Name
+				<span id="req_456" class="req">*</span>
+			</label>
+	<span>
+		<input id="Field456" 			name="Field456" 			type="text" 			class="field text fn" 			value="" 			size="8" 			tabindex="12" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder=""       			required 			/>
+		<label for="Field456">First</label>
+	</span>
+	<span>
+		<input id="Field457" 			name="Field457" 			type="text" 			class="field text ln" 			value="" 			size="14" 			tabindex="13" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			required 			/>
+		<label for="Field457">Last</label>
+	</span>
+	</li>
+
+
+
+<li id="fo1li21" 		class="notranslate rightHalf     ">
+	<label class="desc" id="title21" for="Field21">
+		Relationship
+				<span id="req_21" class="req">*</span>
+			</label>
+	<div>
+		<input id="Field21" 			name="Field21" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="14" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      			required 			placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+<li id="fo1li14" 		class="complex notranslate      ">
+	<label class="desc" id="title14" for="Field14">
+		Address
+				<span id="req_14" class="req">*</span>
+			</label>
+	<div>
+		<span class="full addr1">
+		<input id="Field14" 			name="Field14" 			type="text" 			class="field text addr" 			value="" 			tabindex="15" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			required       			/>
+		<label for="Field14">Street Address</label>
+		</span>
+		<span class="full addr2">
+		<input id="Field15" 			name="Field15" 			type="text" 			class="field text addr" 			value="" 			tabindex="16" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			/>
+		<label for="Field15">Address Line 2</label>
+		</span>
+					<span class="left city">
+			<input id="Field16" 				name="Field16" 				type="text" 				class="field text addr" 				value="" 				tabindex="17" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 				required 				/>
+			<label for="Field16">City</label>
+			</span>
+			<span class="right state">
+			<input id="Field17" 				name="Field17" 				type="text" 				class="field text addr" 				value="" 				tabindex="18" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 				required 				/>
+			<label for="Field17">State / Province / Region</label>
+			</span>
+			<span class="left zip">
+			<input id="Field18" 				name="Field18" 				type="text" 				class="field text addr" 				value="" 				maxlength="15" 				tabindex="19" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 				required 				/>
+			<label for="Field18">Postal / Zip Code</label>
+			</span>
+			<span class="right country">
+			<select id="Field19" 				name="Field19" 				class="field select addr" 				tabindex="20" 								onclick="handleInput(this);" 				onkeyup="handleInput(this);" 								>
+										<option value="" selected="selected"></option>
+									<option value="Nepal" >Nepal</option>
+									<option value="United States" >United States</option>
+									<option value="United Kingdom" >United Kingdom</option>
+									<option value="Australia" >Australia</option>
+
+							</select>
+			<label for="Field19">Country</label>
+			</span>
+			</div>
+	</li>
+
+
+
+<li id="fo1li460" 		class="phone notranslate      ">
+	<label class="desc" id="title460" for="Field460">
+		Phone
+				<span id="req_460" class="req">*</span>
+			</label>
+	<span>
+		<input id="Field460" 			name="Field460"       type="tel" 			class="field text" 			value="" 			size="3" 			maxlength="3" 			tabindex="21" 						onkeyup="handleInput(this); autotab(this, document.getElementById('Field460-1'), this); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder=""       			required 			/>
+		<label for="Field460">###</label>
+	</span>
+	<span class="symbol">-</span>
+	<span>
+		<input id="Field460-1" 			name="Field460-1"       type="tel" 			class="field text" 			value="" 			size="3" 			maxlength="3" 			tabindex="22" 						onkeyup="handleInput(this); autotab(this, document.getElementById('Field460-2'), document.getElementById('Field460')); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder="" 			required 			/>
+		<label for="Field460-1">###</label>
+	</span>
+	<span class="symbol">-</span>
+	<span>
+	 	<input id="Field460-2" 			name="Field460-2"       type="tel" 			class="field text" 			value="" 			size="4" 			maxlength="4" 			tabindex="23" 						onkeyup="handleInput(this); autotab(this, this, document.getElementById('Field460-1')); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder="" 			required 			/>
+		<label for="Field460-2">####</label>
+	</span>
+	</li>
+
+
+<li id="fo1li22" 		class="notranslate section      ">
+	<section>
+		<h3 id="title22">
+		</h3>
+				<div id="instruct22">Arnico college located at Biratnagar wants to know abuut your personnal details.</div>
+			</section>
+	</li>
+
+
+
+<li id="fo1li430" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title430" for="Field430">
+		State of Citizenship
+			</label>
+	<div>
+		<input id="Field430" 			name="Field430" 			type="text" 			class="field text large" 			value="" 						maxlength="255" 						tabindex="24" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+<li id="fo1li233" 		class="rightHalf      ">
+	<label class="desc notranslate" id="title233" for="Field233">
+		 Select your Race  
+			</label>
+	<div>
+		<select id="Field233" 			name="Field233" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 			      			tabindex="25" >
+						<option
+								value="" 								selected="selected">
+				<span class="notranslate"></span>
+			</option>
+						<option
+								value="Brahmins" 				>
+				<span class="notranslate">Brahmins</span>
+			</option>
+						<option
+								value="Mongolian" 				>
+				<span class="notranslate">Mongolian</span>
+			</option>
+						<option
+								value="Chhetri" 				>
+				<span class="notranslate">Chhetri</span>
+			</option>
+						 
+						<option
+								value=" " 				>
+				<span class="notranslate"> </span>
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+
+<li id="fo1li127" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title127" for="Field127">
+		Native Language
+			</label>
+	<div>
+		<input id="Field127" 			name="Field127" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="26" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+<li id="fo1li128" 		class="notranslate rightHalf     ">
+	<label class="desc" id="title128" for="Field128">
+		Religion
+			</label>
+	<div>
+		<input id="Field128" 			name="Field128" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="27" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+<li id="fo1li125" 		class="leftHalf      ">
+	<label class="desc notranslate" id="title125" for="Field125">
+		Gender
+			</label>
+	<div>
+		<select id="Field125" 			name="Field125" 			class="field select medium" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 			      			tabindex="28" >
+						<option
+								value="Male" 				>
+				<span class="notranslate">Male</span>
+			</option>
+						<option
+								value="Female" 				>
+				<span class="notranslate">Female</span>
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+
+<li id="fo1li234" 		class="rightHalf      ">
+	<label class="desc notranslate" id="title234" for="Field234">
+		Are you a SLC passed student?
+			</label>
+	<div>
+		<select id="Field234" 			name="Field234" 			class="field select medium" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 			      			tabindex="29" >
+						<option
+								value="" 								selected="selected">
+				<span class="notranslate"></span>
+			</option>
+						<option
+								value="Yes" 				>
+				<span class="notranslate">Yes</span>
+			</option>
+						<option
+								value="No" 				>
+				<span class="notranslate">No</span>
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+
+<li id="fo1li126" 		class="date notranslate      ">
+	<label class="desc" id="title126" for="Field126">
+		Date of Birth
+			</label>
+	<span>
+		<input id="Field126-1" 			name="Field126-1" 			type="text" 			class="field text" 			value="" 			size="2" 			maxlength="2" 			tabindex="30" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						      			/>
+		<label for="Field126-1">MM</label>
+	</span>
+	<span class="symbol">/</span>
+	<span>
+		<input id="Field126-2" 			name="Field126-2" 			type="text" 			class="field text" 			value="" 			size="2" 			maxlength="2" 			tabindex="31" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 									/>
+		<label for="Field126-2">DD</label>
+	</span>
+	<span class="symbol">/</span>
+	<span>
+	 	<input id="Field126" 			name="Field126" 			type="text" 			class="field text" 			value="" 			size="4" 			maxlength="4" 			tabindex="32" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 									/>
+		<label for="Field126">YYYY</label>
+	</span>
+	<span id="cal126">
+		<img id="pick126" class="datepicker" src="index.png" alt="Pick a date." data-date-format="yyyy-mm-dd" data-date="2018-04-10" />
+	</span>
+	</li>
+
+
+<li id="fo1li235" 		class="notranslate section      ">
+	<section>
+		<h3 id="title235">
+		</h3>
+			</section>
+	</li>
+
+
+<li id="fo1li239" 		class="     ">
+	<fieldset>
+	<![if !IE | (gte IE 8)]>
+	<legend id="title239" class="desc notranslate">
+		Please select your Subject:
+			</legend>
+	<![endif]>
+	<!--[if lt IE 8]>
+	<label id="title239" class="desc">
+		This application is for enrollment as:
+			</label>
+	<![endif]-->
+	<div>
+  <input id="radioDefault_239" name="Field239" type="hidden" value="" />
+    <span>
+  <input id="Field239_0"     name="Field239"     type="radio"     class="field radio"     value="Freshman (First time in College)"     tabindex="33"         onchange="handleInput(this);"         onmouseup="handleInput(this);"             checked="checked"                     />
+  <label class="choice" for="Field239_0"     >
+    <span class="choice__text notranslate"> Science</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+	  <span>
+  <input id="Field239_1"     name="Field239"     type="radio"     class="field radio"     value="Undergraduate Transfer"     tabindex="34"         onchange="handleInput(this);"         onmouseup="handleInput(this);"                         />
+  <label class="choice" for="Field239_1"     >
+    <span class="choice__text notranslate">Management</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+	  <span>
+  <input id="Field239_2"     name="Field239"     type="radio"     class="field radio"     value="2nd Bachelor&#039;s Degree"     tabindex="35"         onchange="handleInput(this);"         onmouseup="handleInput(this);"                         />
+  <label class="choice" for="Field239_2"     >
+    <span class="choice__text notranslate">Commerce</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+	  <span>
+  <input id="Field239_3"     name="Field239"     type="radio"     class="field radio"     value="Former Student Returning (FSR)"     tabindex="36"         onchange="handleInput(this);"         onmouseup="handleInput(this);"                         />
+  <label class="choice" for="Field239_3"     >
+    <span class="choice__text notranslate">Hotel Management</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+		</div>
+	</fieldset>
+	</li>
+
+
+
+<li id="fo1li240" 		class="notranslate      ">
+	<label class="desc" id="title240" for="Field240">
+		What is your planned major?
+			</label>
+	<div>
+		<input id="Field240" 			name="Field240" 			type="text" 			class="field text large" 			value="" 						maxlength="255" 						tabindex="37" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+ 
+
+ 
+
+
+ 
+<li id="fo1li245" 		class="notranslate section      ">
+	<section>
+		<h3 id="title245">
+			High School Information
+		</h3>
+			</section>
+	</li>
+
+
+
+<li id="fo1li248" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title248" for="Field248">
+		High School Name
+			</label>
+	<div>
+		<input id="Field248" 			name="Field248" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="48" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+<li id="fo1li254" 		class="complex notranslate      ">
+	<label class="desc" id="title254" for="Field254">
+		High School Address
+			</label>
+	<div>
+		<span class="full addr1">
+		<input id="Field254" 			name="Field254" 			type="text" 			class="field text addr" 			value="" 			tabindex="54" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			      			/>
+		<label for="Field254">Street Address</label>
+		</span>
+		<span class="full addr2">
+		<input id="Field255" 			name="Field255" 			type="text" 			class="field text addr" 			value="" 			tabindex="55" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 			/>
+		<label for="Field255">Address Line 2</label>
+		</span>
+					<span class="left city">
+			<input id="Field256" 				name="Field256" 				type="text" 				class="field text addr" 				value="" 				tabindex="56" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 								/>
+			<label for="Field256">City</label>
+			</span>
+			<span class="right state">
+			<input id="Field257" 				name="Field257" 				type="text" 				class="field text addr" 				value="" 				tabindex="57" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 								/>
+			<label for="Field257">State / Province / Region</label>
+			</span>
+			<span class="left zip">
+			<input id="Field258" 				name="Field258" 				type="text" 				class="field text addr" 				value="" 				maxlength="15" 				tabindex="58" 								onkeyup="handleInput(this);" 				onchange="handleInput(this);" 								   placeholder="" 								/>
+			<label for="Field258">Postal / Zip Code</label>
+			</span>
+			<span class="right country">
+			<select id="Field259" 				name="Field259" 				class="field select addr" 				tabindex="59" 								onclick="handleInput(this);" 				onkeyup="handleInput(this);" 								>
+									<option value="" selected="selected"></option>
+								  <option value="Nepal" >Nepal</option>
+								  <option value="India" >India</option>
+								  <option value="China" >China</option>
+						 
+							</select>
+			<label for="Field259">Country</label>
+			</span>
+			</div>
+	</li>
+
+
+
+<li id="fo1li461" 		class="phone notranslate      ">
+	<label class="desc" id="title461" for="Field461">
+		High School Phone
+			</label>
+	<span>
+		<input id="Field461" 			name="Field461"       type="tel" 			class="field text" 			value="" 			size="3" 			maxlength="3" 			tabindex="60" 						onkeyup="handleInput(this); autotab(this, document.getElementById('Field461-1'), this); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder=""       						/>
+		<label for="Field461">###</label>
+	</span>
+	<span class="symbol">-</span>
+	<span>
+		<input id="Field461-1" 			name="Field461-1"       type="tel" 			class="field text" 			value="" 			size="3" 			maxlength="3" 			tabindex="61" 						onkeyup="handleInput(this); autotab(this, document.getElementById('Field461-2'), document.getElementById('Field461')); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder="" 						/>
+		<label for="Field461-1">###</label>
+	</span>
+	<span class="symbol">-</span>
+	<span>
+	 	<input id="Field461-2" 			name="Field461-2"       type="tel" 			class="field text" 			value="" 			size="4" 			maxlength="4" 			tabindex="62" 						onkeyup="handleInput(this); autotab(this, this, document.getElementById('Field461-1')); filterNonnumeric(this);" 			onchange="handleInput(this);"             onfocus="this.selectionStart = this.selectionEnd = this.value.length;" 			placeholder="" 						/>
+		<label for="Field461-2">####</label>
+	</span>
+	</li>
+
+
+<li id="fo1li265" 		class="notranslate section      ">
+	<section>
+		<h3 id="title265">
+			Please provide the names of people in your immediate family who have attended the College.
+		</h3>
+			</section>
+	</li>
+
+
+
+<li id="fo1li422" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title422" for="Field422">
+		1. Name
+			</label>
+	<span>
+		<input id="Field422" 			name="Field422" 			type="text" 			class="field text fn" 			value="" 			size="8" 			tabindex="63" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder=""       						/>
+		<label for="Field422">First</label>
+	</span>
+	<span>
+		<input id="Field423" 			name="Field423" 			type="text" 			class="field text ln" 			value="" 			size="14" 			tabindex="64" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 						/>
+		<label for="Field423">Last</label>
+	</span>
+	</li>
+
+
+
+<li id="fo1li424" 		class="notranslate rightHalf     ">
+	<label class="desc" id="title424" for="Field424">
+		Relationship
+			</label>
+	<div>
+		<input id="Field424" 			name="Field424" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="65" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+<li id="fo1li426" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title426" for="Field426">
+		2. Name
+			</label>
+	<span>
+		<input id="Field426" 			name="Field426" 			type="text" 			class="field text fn" 			value="" 			size="8" 			tabindex="66" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder=""       						/>
+		<label for="Field426">First</label>
+	</span>
+	<span>
+		<input id="Field427" 			name="Field427" 			type="text" 			class="field text ln" 			value="" 			size="14" 			tabindex="67" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						placeholder="" 						/>
+		<label for="Field427">Last</label>
+	</span>
+	</li>
+
+
+
+<li id="fo1li425" 		class="notranslate rightHalf     ">
+	<label class="desc" id="title425" for="Field425">
+		Relationship
+			</label>
+	<div>
+		<input id="Field425" 			name="Field425" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="68" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+<li id="fo1li266" 		class="notranslate section      ">
+	<section>
+		<h3 id="title266">
+			Extracurricular, Personal and Volunteer Activities
+		</h3>
+			</section>
+	</li>
+
+
+
+<li id="fo1li417"
+		class="notranslate leftHalf     ">
+
+	
+	<label class="desc" id="title417" for="Field417">
+		Extracurricular Activities:
+			</label>
+
+	<div>
+				<textarea id="Field417"
+			name="Field417"
+			class="field textarea medium"
+			spellcheck="true"
+			rows="10" cols="50"
+						tabindex="69"
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);"
+						placeholder=""
+      								 ></textarea>
+
+			</div>
+
+		<p class="instruct" id="instruct417"><small>List your organizations, position, description of the activity, and hours per week of involvement.</small></p>
+	
+	
+	</li>
+
+
+
+<li id="fo1li418"
+		class="notranslate rightHalf     ">
+
+	
+	<label class="desc" id="title418" for="Field418">
+		Talents and Awards:
+			</label>
+
+	<div>
+				<textarea id="Field418"
+			name="Field418"
+			class="field textarea medium"
+			spellcheck="true"
+			rows="10" cols="50"
+						tabindex="70"
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);"
+						placeholder=""
+      								 ></textarea>
+
+			</div>
+
+		<p class="instruct" id="instruct418"><small>List each, a description, the level, and number of years of involvement.</small></p>
+	
+	
+	</li>
+
+
+
+<li id="fo1li416"
+		class="notranslate leftHalf     ">
+
+	
+	<label class="desc" id="title416" for="Field416">
+		Community Service Work:
+			</label>
+
+	<div>
+				<textarea id="Field416"
+			name="Field416"
+			class="field textarea medium"
+			spellcheck="true"
+			rows="10" cols="50"
+						tabindex="71"
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);"
+						placeholder=""
+      								 ></textarea>
+
+			</div>
+
+		<p class="instruct" id="instruct416"><small>List the type of work, your role, and hours per week of involvement.</small></p>
+	
+	
+	</li>
+
+
+
+<li id="fo1li420"
+		class="notranslate rightHalf     ">
+
+	
+	<label class="desc" id="title420" for="Field420">
+		Employment:
+			</label>
+
+	<div>
+				<textarea id="Field420"
+			name="Field420"
+			class="field textarea medium"
+			spellcheck="true"
+			rows="10" cols="50"
+						tabindex="72"
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);"
+						placeholder=""
+      								 ></textarea>
+
+			</div>
+
+		<p class="instruct" id="instruct420"><small>List the job, your title, description, hours per week, and dates of employment.</small></p>
+	
+	
+	</li>
+
+
+
+<li id="fo1li421" 		class="notranslate       " 	 >
+		<label class="desc" id="title421" for="Field421">
+		You may attach an additional Word, PDF or text document if necessary.
+			</label>
+	<div>
+		<input id="Field421" 			name="Field421" 			type="file" 			class="field file" 			size="12" 			data-file-max-size="0" 			tabindex="73" 			      			/>
+	</div>
+	</li>
+
+
+<li id="fo1li275" 		class="notranslate section      ">
+	<section>
+		<h3 id="title275">
+			Parent Information
+		</h3>
+				<div id="instruct275">The information requested below is optional, but it may assist in the review of your admission. You are strongly encouraged to complete this section.<br />
+</div>
+			</section>
+	</li>
+
+
+
+<li id="fo1li276" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title276" for="Field276">
+		Father or Legal Guardian Occupation
+			</label>
+	<div>
+		<input id="Field276" 			name="Field276" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="74" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+<li id="fo1li281" 		class="rightHalf      ">
+	<label class="desc notranslate" id="title281" for="Field281">
+		Father or Legal Guardian Education
+			</label>
+	<div>
+		<select id="Field281" 			name="Field281" 			class="field select medium" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 			      			tabindex="75" >
+						<option
+								value="" 								selected="selected">
+				<span class="notranslate"></span>
+			</option>
+						<option
+								value="High School or Less" 				>
+				<span class="notranslate">High School or Less</span>
+			</option>
+						<option
+								value="Trade or Vocational School" 				>
+				<span class="notranslate">Trade or Vocational School</span>
+			</option>
+						<option
+								value="Some College" 				>
+				<span class="notranslate">Some College</span>
+			</option>
+						<option
+								value="Undergraduate College Degree" 				>
+				<span class="notranslate">Undergraduate College Degree</span>
+			</option>
+						<option
+								value="Graduate Degree" 				>
+				<span class="notranslate">Graduate Degree</span>
+			</option>
+						<option
+								value="Prefer Not to Answer" 				>
+				<span class="notranslate">Prefer Not to Answer</span>
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+
+<li id="fo1li277" 		class="notranslate leftHalf     ">
+	<label class="desc" id="title277" for="Field277">
+		Mother or Legal Guardian Occupation
+			</label>
+	<div>
+		<input id="Field277" 			name="Field277" 			type="text" 			class="field text medium" 			value="" 						maxlength="255" 						tabindex="76" 			onkeyup="handleInput(this); " 						onchange="handleInput(this);" 			      						placeholder="" 			/>
+			</div>
+	</li>
+
+
+
+<li id="fo1li284" 		class="rightHalf      ">
+	<label class="desc notranslate" id="title284" for="Field284">
+		Mother or Legal Guardian Education
+			</label>
+	<div>
+		<select id="Field284" 			name="Field284" 			class="field select medium" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 			      			tabindex="77" >
+						<option
+								value="" 								selected="selected">
+				<span class="notranslate"></span>
+			</option>
+						<option
+								value="High School or Less" 				>
+				<span class="notranslate">High School or Less</span>
+			</option>
+						<option
+								value="Trade or Vocational School" 				>
+				<span class="notranslate">Trade or Vocational School</span>
+			</option>
+						<option
+								value="Some College" 				>
+				<span class="notranslate">Some College</span>
+			</option>
+						<option
+								value="Undergraduate College Degree" 				>
+				<span class="notranslate">Undergraduate College Degree</span>
+			</option>
+						<option
+								value="Graduate Degree" 				>
+				<span class="notranslate">Graduate Degree</span>
+			</option>
+						<option
+								value="Prefer Not to Answer" 				>
+				<span class="notranslate">Prefer Not to Answer</span>
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+
+<li id="fo1li282" 		class="      ">
+	<label class="desc notranslate" id="title282" for="Field282">
+		Please indicate your family’s gross income for the most recent tax year. Include both taxed and untaxed income.<br />
+			</label>
+	<div>
+		<select id="Field282" 			name="Field282" 			class="field select medium" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 			      			tabindex="78" >
+						<option
+								value="" 								selected="selected">
+				<span class="notranslate"></span>
+			</option>
+						<option
+								value="Second choice" 				>
+				<span class="notranslate">Second choice</span>
+			</option>
+						<option
+								value="$20,000 - $39,999" 				>
+				<span class="notranslate">$20,000 - $39,999</span>
+			</option>
+						<option
+								value="$40,000 - $59,999" 				>
+				<span class="notranslate">$40,000 - $59,999</span>
+			</option>
+						<option
+								value="$60,000 - $79,999" 				>
+				<span class="notranslate">$60,000 - $79,999</span>
+			</option>
+						<option
+								value="$80,000 or more" 				>
+				<span class="notranslate">$80,000 or more</span>
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+<li id="fo1li289" 		class="leftHalf     ">
+	<fieldset>
+	<![if !IE | (gte IE 8)]>
+	<legend id="title289" class="desc notranslate">
+		Do you have family obligations that keep you from participating in extracurricular activities?
+			</legend>
+	<![endif]>
+	<!--[if lt IE 8]>
+	<label id="title289" class="desc">
+		Do you have family obligations that keep you from participating in extracurricular activities?
+			</label>
+	<![endif]-->
+	<div>
+  <input id="radioDefault_289" name="Field289" type="hidden" value="" />
+    <span>
+  <input id="Field289_0"     name="Field289"     type="radio"     class="field radio"     value="No"     tabindex="79"         onchange="handleInput(this);"         onmouseup="handleInput(this);"             checked="checked"                     />
+  <label class="choice" for="Field289_0"     >
+    <span class="choice__text notranslate">No</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+	  <span>
+  <input id="Field289_1"     name="Field289"     type="radio"     class="field radio"     value="Yes, I have to work to supplement family income."     tabindex="80"         onchange="handleInput(this);"         onmouseup="handleInput(this);"                         />
+  <label class="choice" for="Field289_1"     >
+    <span class="choice__text notranslate">Yes, I have to work to supplement family income.</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+	  <span>
+  <input id="Field289_2"     name="Field289"     type="radio"     class="field radio"     value="Yes, I provide primary care for family member(s)."     tabindex="81"         onchange="handleInput(this);"         onmouseup="handleInput(this);"                         />
+  <label class="choice" for="Field289_2"     >
+    <span class="choice__text notranslate">Yes, I provide primary care for family member(s).</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+	  <span>
+  <input id="Field289_3"     name="Field289"     type="radio"     class="field radio"     value="Other."     tabindex="82"         onchange="handleInput(this);"         onmouseup="handleInput(this);"                         />
+  <label class="choice" for="Field289_3"     >
+    <span class="choice__text notranslate">Other.</span>
+          <span class="choice__qty">
+              </span>
+  </label>
+    </span>
+		</div>
+	</fieldset>
+	</li>
+
+
+
+<li id="fo1li288"
+		class="notranslate rightHalf     ">
+
+	
+	<label class="desc" id="title288" for="Field288">
+		If yes or other, please describe:
+			</label>
+
+	<div>
+				<textarea id="Field288"
+			name="Field288"
+			class="field textarea small"
+			spellcheck="true"
+			rows="10" cols="50"
+						tabindex="83"
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);"
+						placeholder=""
+      								 ></textarea>
+
+			</div>
+
+	
+	
+	</li>
+
+
+<li id="fo1li290" 		class="notranslate section      ">
+	<section>
+
+
+<li id="fo1li311" 		class="notranslate       " 	 >
+		<label class="desc" id="title311" for="Field311">
+		Please attach a photo of your Alien Registration card.
+			</label>
+	<div>
+		<input id="Field311" 			name="Field311" 			type="file" 			class="field file" 			size="12" 			data-file-max-size="0" 			tabindex="92" 			      			/>
+	</div>
+	</li>
+
+
+<li id="fo1li412" 		class="notranslate section      ">
+	<section>
+		<h3 id="title412">
+		</h3>
+				<div id="instruct412"> 
+<br />
+I certify that this information is complete and accurate. I understand that making false or fraudulent statements within this application or residency statement will result in disciplinary action, denial of admission and invalidation of credit or degrees earned. <br />
+<br />
+If admitted, I agree to abide by the policies of the Board of Regents and the rules and regulations of the University. Should any information change prior to my entry into the University, I will notify the Office of Admissions. <br />
+<br />
+I understand that the application fee I submit with this application is a non-refundable fee.</div>
+			</section>
+	</li>
+
+
+
+<li id="fo1li313" 		class="     ">
+	<fieldset>
+	<![if !IE | (gte IE 8)]>
+	<legend id="title313" class="desc notranslate">
+		Do you understand and agree to the terms listed above?
+				<span id="req_313" class="req">*</span>
+			</legend>
+	<![endif]>
+	<!--[if lt IE 8]>
+	<label id="title313" class="desc">
+		Do you understand and agree to the terms listed above?
+				<span id="req_313" class="req">*</span>
+			</label>
+	<![endif]-->
+	<div>
+		<span class="subfield">
+	<input id="Field313" 		name="Field313" 		type="checkbox" 		class="field checkbox" 		value="Yes, I understand and agree to the terms listed above." 		tabindex="93" 						onchange="handleInput(this);" 				    		/>
+	<label class="choice" for="Field313">
+		<span class="choice__text notranslate" >Yes, I understand and agree to the terms listed above.</span>
+					<span class="choice__qty">
+							</span>
+	</label>
+	</span>
+		</div>
+	</fieldset>
+	</li>
+
+
+<li id="fo1li413" 		class="notranslate section      ">
+	<section>
+		<h3 id="title413">
+		</h3>
+				<div id="instruct413">   
+</div>
+			</section>
+	</li>
+
+
+ 
+
+	
+	<li class="buttons ">
+		<div>
+								<input type="hidden" name="currentPage" id="currentPage" value="m " />
+			
+			    			    			        <input      
+			    type="submit" value="Submit"
+				  />
+					
+		
+								<a href="#"
+				target="_blank"
+				style="font-size:85% !important;visibility:visible !important;display:inline !important;
+				background:none !important;border:none !important;color:blue !important;
+				text-indent:0 !important;text-decoration:underline !important;position:static !important;
+				margin:0 !important;padding:0 !important;overflow:none !important
+				width:auto !important;height:auto !important;">Report Abuse</a>
+				</div>
+	</li>
+
+		<li class="hide">
+		<label for="comment">Do Not Fill This Out</label>
+		<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+		<input type="hidden" id="idstamp" name="idstamp" value="nPquvO8GmFPqpigWMQ6rTZfxoaV0wIZH3rgYDxlRIUs=" />
+				<input type="hidden" id="stats" name="stats" value="{&quot;errors&quot;:0,&quot;startTime&quot;:0,&quot;endTime&quot;:0,&quot;referer&quot;:null}" />
+				<input type="hidden" id="clickOrEnter" name="clickOrEnter" value="" />
+			</li>
+	</ul>
+</form>
+ 
+
+</div><!--container-->
+ 

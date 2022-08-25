@@ -1,0 +1,458 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"cover"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"cli",
+				"clip-rule"
+			],
+			[
+				"bo",
+				"border-image"
+			],
+			[
+				"bgc",
+				"background-color"
+			],
+			[
+				"u",
+				"text-underline-position"
+			],
+			[
+				"td",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"boc",
+				"border-color"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"Ne",
+				"Nepal"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"d",
+				"dominant-baseline"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"fw",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bra",
+				"border-radius"
+			],
+			[
+				"po",
+				"paint-order"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"t",
+				"transition-property"
+			],
+			[
+				"Footer",
+				"first_footer"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"ws",
+				"word-spacing"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"US",
+				"useful"
+			],
+			[
+				"ff",
+				"font-family"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"fs",
+				"font-size"
+			],
+			[
+				"b",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"bc",
+				"background-color"
+			],
+			[
+				"mat",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"c",
+				"contextmenu\tAttr"
+			],
+			[
+				"mt",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Anish khadka/Desktop/anish.html",
+			"settings":
+			{
+				"buffer_size": 4037,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "h",
+		"selected_items":
+		[
+			[
+				"h",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"app",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"",
+				"Bookmarks: Select Previous"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Anish khadka/Desktop/bhesharaj html collections/html final/a.html",
+		"/C/Users/Anish khadka/Desktop/bhesharaj html collections/html final/style.css",
+		"/C/Users/Anish khadka/Desktop/bhesharaj html collections/html final/admission.html",
+		"/C/Users/Anish khadka/Desktop/bhesharaj html collections/html final/bhesharaj.html",
+		"/C/Users/Anish khadka/Desktop/bhesharaj html collections/html final/contact.html",
+		"/C/Users/Anish khadka/Desktop/bhesharaj html collections/html final/Why A.html",
+		"/C/Users/Anish khadka/Desktop/bhesharaj html collections/Aranico college With sliding Images.html",
+		"/C/Users/Anish khadka/Desktop/website/Aranico college With sliding Images.html",
+		"/C/Users/Anish khadka/Desktop/website/style.css",
+		"/C/Users/Anish khadka/Desktop/Javascript/light.html",
+		"/C/Users/Anish khadka/Desktop/Javascript/date.html",
+		"/C/Users/Anish khadka/Desktop/website/image.php",
+		"/C/Users/Anish khadka/Desktop/Javascript/index.html",
+		"/C/Users/Public/Desktop/Firefox.lnk",
+		"/C/Users/Anish khadka/Desktop/website/image.html",
+		"/C/Users/Anish khadka/Desktop/website/imagesfloating.html",
+		"/C/Users/Anish khadka/Desktop/website/fli.html",
+		"/C/Users/Anish khadka/Desktop/index.html",
+		"/C/Users/Anish khadka/Desktop/website/html final/admission form.html",
+		"/C/Users/Anish khadka/Desktop/admission.html",
+		"/C/Users/Anish khadka/Desktop/website/footer.css",
+		"/C/Users/Anish khadka/Desktop/website/New folder/footer.css",
+		"/C/Users/Anish khadka/Desktop/website/responsivesearch.html",
+		"/C/Users/Anish khadka/Desktop/website/html final/an.html",
+		"/C/Users/Anish khadka/Desktop/website/html final/body.html",
+		"/C/Users/Anish khadka/Desktop/website/html final/eligibility.html",
+		"/C/Users/Anish khadka/Desktop/website/html final/contact.html",
+		"/C/Users/Anish khadka/Music/h.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".yellow",
+			"</b>",
+			"<b>",
+			"    ",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Anish khadka/Desktop/anish.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4037,
+								4037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1037.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "contact.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
