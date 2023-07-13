@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Aranico html</title>
@@ -301,7 +301,8 @@ ol li img{cursor: pointer;margin-top: 2px;}
   <!--body section starts --> <body>
     <header>
       <nav>
-        <div class="header"> <img src="images/logo.png" style="margin-top:5px; margin-left: 10px;"
+        <div class="header"> <img src="images/logo.png" style="margin-top:5px; margin-left: 10px;"
+
             width="200px" height="180px" align="left">
           <div class="ac">
             <ol class="top">
@@ -403,7 +404,8 @@ ol li img{cursor: pointer;margin-top: 2px;}
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <div class="w3-container"> </div>
         <div class="w3-content w3-display-container">
-          <div class="w3-display-container mySlides"> <img src="images/b%20%281%29.png"
+          <div class="w3-display-container mySlides"> <img src="images/b%20%281%29.png"
+
               style="width:100%">
             <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
               Practical Exam </div>
@@ -475,7 +477,8 @@ function showDivs(n) {
           <a href="#">Read more... </a> </p>
       </div>
       <div class="column_right">
-        <p id="main_p"> <img src="images/notice%20%281%29.png" class="hotelhm"
+        <p id="main_p"> <img src="images/notice%20%281%29.png" class="hotelhm"
+
             style="margin-top : 12px; "> <b style="color: tomato; cursor: pointer; ">
             &nbsp; HSEB Final Practical Exam Class 12 </b><br>
           <img src="images/notice%20%283%29.png" class="hotelhm" style="margin-top: -14px;  ">
@@ -545,7 +548,8 @@ function showDivs(n) {
       <div id="footer">
         <div id="footer_left">Copyright © 2018. Arniko +2 Higher Secondary. All
           Rights Reserved.</div>
-        <div id="footer_right"> <a href="html%20final/bhesharaj.html%20" target="_blank"
+        <div id="footer_right"> <a href="html%20final/bhesharaj.html%20" target="_blank"
+
             title=" "> By Anish khadka </a></div>
       </div>
     </div>
